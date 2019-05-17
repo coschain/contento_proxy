@@ -1,0 +1,30 @@
+listenaddr: 0.0.0.0:6000
+rpcaddr: [127.0.0.1:1234]
+redisaddr: 127.0.0.1:6379
+apilogpath: api.log
+joblogpath: job.log
+redismaxidle: 50
+redismaxactive: 100
+redisidletimeout: 30
+jobcount: 50
+tokenpersecond: 100
+tokenmax: 200
+contractdeployername: someone
+creators:
+- type: PG
+  creatorname: someone
+  creatorprikey: 3mZtDLbz9TzzShKdFi1B592ugwGhr4QhptSe2H3kqHuou4Qixn
+- type: CT
+  creatorname: someone
+  creatorprikey: 3mZtDLbz9TzzShKdFi1B592ugwGhr4QhptSe2H3kqHuou4Qixn
+- type: G2
+  creatorname: someone
+  creatorprikey: 3mZtDLbz9TzzShKdFi1B592ugwGhr4QhptSe2H3kqHuou4Qixn
+rpctimeout: 1500
+contractname: contractA
+contractcommentmethod: methodA
+contractlikemethod: methodB
+contractsigninmethod: methodC
+rewardmininterval: 200
+transfername: someone
+transferprikey: 3mZtDLbz9TzzShKdFi1B592ugwGhr4QhptSe2H3kqHuou4Qixn
